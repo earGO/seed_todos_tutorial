@@ -1,8 +1,8 @@
 [package]
 version = "0.1.0"
-name = "{{project-name}}"
+name = "todo_tutorial"
 repository = "https://github.com/seed-rs/seed-quickstart"
-authors = ["{{authors}}"]
+authors = ["ear_go"]
 description = "App Description"
 categories = ["category"]
 license = "MIT"
@@ -17,6 +17,8 @@ wasm-bindgen-test = "0.3.18"
 
 [dependencies]
 seed = "0.8.0"
+serde = "1.0.125"
+ulid = "0.4.1"
 
 [profile.release]
 lto = true
